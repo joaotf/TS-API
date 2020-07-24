@@ -1,0 +1,21 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "dev": "nodemon src/server/init.ts"
+    
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.7",
+    "@types/mongoose": "^5.7.32",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
